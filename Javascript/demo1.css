@@ -1,0 +1,14 @@
+button
+{
+    background-color:wheat;
+   border-radius: 10px;
+   border-color: red;
+}
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f8f9fa;
+    }

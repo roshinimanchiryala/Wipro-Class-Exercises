@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>forms</title>
+    <link href="design2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="heading">
+        <h4>Please fill the form</h4>
+        <p>Fill the form. Cricket is a bat and ball game that is played between two teams of eleven players.</p>
+    </div>
+
+    <div class="form">
+        
+        <form action="fronted1.html" method="get">
+            <label>Full name</label>
+            <input type="text" name="fullname">
+            <br><br>
+
+            <label>Age</label>
+            
+            <input type="number" name="age">
+            <br><br>
+
+            <label>Date of birth</label>
+            <input type="date" name="dob">
+            <br><br>
+
+            <label>Time of birth</label>
+            <input type="time" name="tob">
+            <br><br>
+
+            <label>Favourite color</label>
+            <input type="color" name="favcolor">
+            <br><br>
+
+            <label>Address</label>
+            <textarea name="address"></textarea>
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="others"> Others
+            <br><br>
+
+            <label>Languages known</label>
+            <input type="checkbox" name="lang" value="c_cpp"> C, C++
+            <input type="checkbox" name="lang" value="python_java"> Python, Java
+            <input type="checkbox" name="lang" value="php_r"> PHP, R
+            <br><br>
+
+            <label>Blood Group</label>
+            <select name="bloodgroup">
+                <option>A+</option>
+                <option>O+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+            </select>
+            <br><br>
+
+            <label>Games</label>
+            <select name="games" multiple>
+                <option>Cricket</option>
+                <option>Carrom</option>
+                <option>Volleyball</option>
+                <option>Football</option>
+                <option>Chess</option>
+            </select>
+            <br><br>
+
+            <label>File Upload</label>
+            <input type="file" name="upload">
+            <br><br>
+
+            <input type="submit" value="Save Data">
+            <button type="submit">Save Data</button>
+            <br><br>
+
+            <button type="reset">Clear Data</button>
+            <button type="button">For JS</button>
+        </form>
+    </div>
+</body>
+</html>

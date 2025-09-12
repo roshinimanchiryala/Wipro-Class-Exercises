@@ -1,0 +1,17 @@
+.my-form{
+    background-color: blue;
+    margin:20px;
+    padding:10px;
+    border-radius:10px;
+    border:red 6px solid;
+}
+
+.my-form label{
+    color:white;
+}
+
+.my-form input{
+    border:radius 0;
+    border:none;
+    border-bottom: ;
+}

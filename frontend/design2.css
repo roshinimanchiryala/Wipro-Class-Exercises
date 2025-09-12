@@ -1,0 +1,21 @@
+.heading {
+    color: red;
+}
+div.heading{
+    color:blue;
+    font-style:italic;
+}
+b.heading{
+    color:orange;
+
+}
+.introduction b{
+    font-size:30px;
+}
+
+.introduction>b{
+    color:maroon;
+}
+b{
+    text-decoration:underline;
+}
